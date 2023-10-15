@@ -6,30 +6,59 @@
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Contact us</title>
+<!--stylesheet-->
         <link rel="stylesheet" href="contact.css">
+<!-- fontawsome-->
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     </head>
         <body>
-            <div class="container">
-                <div class="box">
-                    <div class="box-row">
-                        <div class="box-cell box1">
-                            <p>Where we are</p>
-                            <iframe class="one" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.87299499279!2d-112.07431902430905!3d33.45261527338867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b690ee4e6944b%3A0xd32691babcf75096!2sThunderbird%20School%20of%20Global%20Management!5e0!3m2!1sen!2sus!4v1697179759601!5m2!1sen!2sus" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                        <div class="box-cell box2">
-                            <form action="">
-                                <p>Send us a message</p>
-                                <input type="text" placeholder="Name">
-                                <input type="text" placeholder="Email"><br><br>
-                                <input type="number" placeholder="Phone">
-                                <input type="text"placeholder="Subject"> <br><br>
-                                <textarea  class="one"  placeholder="Message" rows="5" cols="46"></textarea>
-                                <br><br>
-                                <input class="two" type="Submit" value="Submit">
-                            </form>
-                        </div>
-                    </div>
-                </div>
+<section>
+      <div class="contact">
+        <div class="map">
+          <h1>where are we</h1>
+
+          <iframe class="one" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.87299499279!2d-112.07431902430905!3d33.45261527338867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b690ee4e6944b%3A0xd32691babcf75096!2sThunderbird%20School%20of%20Global%20Management!5e0!3m2!1sen!2sus!4v1697179759601!5m2!1sen!2sus"
+          width="600"
+          height="250"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+        </div>
+
+        <div class="form">
+          <h1>send us a message</h1>
+
+          <div class="inputbox">
+            <div class="div">
+              <input type="text" placeholder="Name" />
+              <input type="email" name="email" placeholder="email" />
             </div>
-    </body>
+
+            <div class="div">
+              <input type="text" placeholder="phone" />
+              <input type="text" placeholder="subject" />
+            </div>
+
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="message"
+            ></textarea>
+
+            <!-- <input type="submit" value="Submit"> -->
+            <button>submit</button>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
